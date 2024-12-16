@@ -1,0 +1,38 @@
+.student {
+  border: 1px green dotted;
+  margin: 10px auto;
+  padding: 0.4rem;
+}
+
+.home-task div {
+  margin-bottom: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit button {
+  text-align: center;
+  width: 100%;
+  padding: 0.6rem;
+  background-color: green;
+  color: white;
+  border-style: none;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.submit button:hover {
+  background-color: rgba(0, 128, 0, 0.8);
+}
+
+.submit button:focus {
+  border: 5px solid rgba(0, 255, 0, 1);
+}
+
+.home-task input {
+  font-size: medium;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-width: 1px;
+}
