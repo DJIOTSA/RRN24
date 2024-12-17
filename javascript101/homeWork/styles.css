@@ -1,0 +1,76 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* header */
+h1,h3{
+    text-align: center;
+    margin : 1rem;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    margin: 1rem;
+}
+
+p{
+    text-align: center;
+    margin:  1rem;
+}
+
+/* main */
+#card{
+    padding: 2rem;
+    border: 3px solid black;
+}
+
+#info, .game-input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.g1{
+    margin-right: 1rem;
+    text-align: left;
+}
+
+.g2{
+    text-align: right;
+}
+
+.game-input p {
+    margin: 0;
+}
+
+input{
+padding: .7rem 2rem;
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+    padding: 1rem 5rem;
+}
+
+.error{
+    background-color: red;
+    color: white;
+}

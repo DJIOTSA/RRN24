@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <title>Programming Colors Matching</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body id="body">
+    <header>
+      <div>
+        <h1>Programming Color Matching</h1>
+        <p>
+          Guess the corresponding color of all the programming languages to win
+          the game.
+        </p>
+        <p>You have only 5 tries</p>
+        <h3>List of programming languages</h3>
+        <ul>
+          <li>c</li>
+          <li>c++</li>
+          <li>javascript</li>
+          <li>java</li>
+          <li>c#</li>
+          <li>python</li>
+          <li>assembler</li>
+          <li>dard</li>
+          <li>php</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div id="card">
+        <div id="info">
+          <div>
+            <strong>LIVE: <span id="live-num"></span></strong>
+          </div>
+          <div >
+            <strong>SCORE: <span id="score-num"></span></strong>
+          </div>
+        </div>
+
+        <div class="error" id="error"></div>
+
+        <div class="game">
+          <form action="">
+            <div class="game-input">
+              <div class="g1">
+                <p>Programming Language</p>
+                <input
+                  type="text"
+                  name="prog-lang"
+                  id="prog-lang"
+                  placeholder="programming Language"
+                />
+              </div>
+              <div class="g2">
+                <p
+                  >Programming Language Color</p
+                >
+                <input
+                  type="text"
+                  name="prog-color"
+                  id="prog-color"
+                  placeholder="programming  Color"
+                />
+              </div>
+            </div>
+            <div class="btn">
+              <button type="submit" id="submit">Check Matching</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
